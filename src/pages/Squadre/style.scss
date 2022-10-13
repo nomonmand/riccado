@@ -1,0 +1,332 @@
+.none-list-squadre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 660px;
+  margin: 50px 0;
+  padding: 0 30px;
+  border-radius: 20px;
+  border: 1px solid #606f88;
+  background-color: #fff;
+
+  img {
+    width: 129px;
+  }
+
+  p {
+    margin: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #828282;
+  }
+
+  &>div {
+    flex-direction: column;
+  }
+}
+
+.list-squadre {
+  height: 660px;
+  margin: 50px 0;
+  padding: 59px 38px;
+  border-radius: 20px;
+  border: 1px solid #606f88;
+  background-color: #fff;
+
+  .iconWrite {
+    background-color: #2f80ed;
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .squadre-section {
+    width: 427px;
+    background: #ffffff;
+    border: 1px solid rgba(21, 19, 19, 0.3);
+    border-radius: 10px;
+
+    .squadre-section-header {
+      display: flex;
+      justify-content: space-between;
+      height: 72px;
+      background: #2f80ed;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 10px 10px 0px 0px;
+
+      &>div {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 28px 23px 23px 23px;
+        color: #ffffff;
+      }
+    }
+
+    .squadre-section-body {
+      padding: 17px 23px 75px 17px;
+
+      .squadre-item {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+
+        .squadre-item-avatar {
+          padding: 7px;
+          background: #327130;
+          color: #ffffff;
+          border-radius: 50%;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 24px;
+        }
+
+        .Squadre-item-mail {
+          margin-left: 17.3px;
+        }
+      }
+    }
+
+    .squadre-section-footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 16px 21px 26px 21px;
+      border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+      .squadre-section-footer-desc {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+      }
+
+      .squadre-section-footer-num {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+      }
+    }
+  }
+}
+
+.modificasquadre .MuiBox-root {
+  box-sizing: border-box;
+  width: 837px;
+  height: fit-content;
+  padding: 30px 49px 0 93px;
+  border-radius: 15px;
+  background: #ffffff;
+
+  .custom-input-text {
+    width: 95%;
+  }
+
+  .modal-title {
+    padding: 0;
+
+    p {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      color: #606f88;
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      color: #151313;
+    }
+  }
+
+  .modal-content {
+    padding: 0 0 5rem 0;
+  }
+
+  .form-group-select {
+    display: flex;
+
+    .multi-input-select {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      svg {
+        position: absolute;
+        right: 20px;
+        font-size: 30px;
+      }
+    }
+
+    .custom-input-text {
+      padding-right: 50px;
+    }
+
+    svg {
+      fill: initial;
+      font-size: 50px;
+    }
+  }
+
+  .input-email {
+    display: flex;
+
+    .email-list {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      margin-right: 29px;
+    }
+
+    .email-role {
+      display: flex;
+      flex-direction: row;
+      align-content: start;
+      width: 52%;
+
+      .Mui-checked {
+        color: #83112f;
+      }
+    }
+
+    .email-button {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 259px;
+      padding: 11px 0;
+      border-radius: 50px;
+      background: #f1f2f3;
+
+      svg {
+        position: absolute;
+        left: 25px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.createteam-modal .MuiBox-root {
+  width: 660px;
+  height: 680px;
+  padding: 0;
+
+  .custom-input-text {
+    width: 95%;
+  }
+
+  .modal-header {
+    position: relative;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+
+    h3 {
+      position: absolute;
+      left: 42px;
+      margin: 0;
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      color: #FFFFFF;
+    }
+
+    span {
+      position: absolute;
+      align-items: center;
+      right: 22px;
+      color: white;
+    }
+  }
+
+  .modal-content {
+    padding: 60px 40px;
+  }
+
+  .form-group-select {
+    display: flex;
+
+    .multi-input-select {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      svg {
+        position: absolute;
+        right: 20px;
+        font-size: 30px;
+      }
+    }
+
+    .custom-input-text {
+      padding-right: 50px;
+    }
+
+    svg {
+      fill: initial;
+      font-size: 50px;
+    }
+  }
+
+  .input-email {
+
+    .email-list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .email-role {
+      display: flex;
+      flex-direction: row;
+      align-content: start;
+      width: 52%;
+
+      .Mui-checked {
+        color: #83112F;
+      }
+    }
+
+    .email-button {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 40%;
+      padding: 11px 0;
+      margin-bottom: 24px;
+      border-radius: 50px;
+      background: #F1F2F3;
+
+      svg {
+        position: absolute;
+        left: 25px;
+        font-size: 20px;
+      }
+    }
+  }
+}
